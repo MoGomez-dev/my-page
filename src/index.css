@@ -1,0 +1,285 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a1b;
+    color: aliceblue;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+img:hover {
+    transform: scale(1.2);
+    z-index: 15;
+}
+
+.container {
+    margin: 0 100px;
+    padding: 0 15px;
+}
+
+.section-title{
+    font-size: 4.5rem;
+    margin: 30px 0 30px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+header{
+    background-color: #414142;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    display: block;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+header ul li {
+    float: left;
+    padding: 5px 15px;
+    transition: all 0.2s;
+}
+
+header ul li:hover {
+    transform: scale(1.2);
+}
+
+header ul li button{
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+.home-wrapper{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile p{
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.profile h5 {
+    font-size: 2.2rem;
+    margin: 0 0 0 20px;
+}
+
+.selfie {
+    margin-top: 50px;
+    height: auto;
+    width: 31%;
+    border-radius: 50%;
+    margin-right: 7%;
+    transition: all 0.2s;
+}
+
+.work-wrapper {
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.project {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.image-work2 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-work2 img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.split-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split-image img {
+    width: 50%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.project .image {
+    width: 70%;
+    height: 400px;
+}
+
+.project .image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+.project .sentence{
+    padding: 40px;
+    width: 100%;
+}
+
+.sentence h3 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    margin-block-start: 0;
+}
+
+.sentence p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.contact-wrapper {
+    margin-top: 200px;
+}
+
+.sns {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sns p{
+    margin: 15px 0;
+    font-size: 2rem;
+}
+
+.sns a{
+    display: block;
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+@media (max-width:1200px){
+    .project {
+        height: 100%;
+        display: block;
+    }
+
+    .project .image {
+        width: 80%;
+    }
+
+    .project .sentence {
+        width: 88%;
+        margin-right: 0;
+        transform: none;
+        background-color: transparent;
+        padding: 30px 0 0 0;
+        border-radius: 0;
+        backdrop-filter: none;
+    }
+
+    .sentence h3 {
+        font-size: 2.5rem;
+    }
+
+    .image-work2 {
+        margin: 0 auto;
+    }
+
+    .split-image{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .split-image img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    header ul li button{
+        font-size: 1.5rem;
+    }
+
+    .home-wrapper {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile p{
+        font-size: 1.6rem;
+        margin-right: 0;
+    }
+    
+    .selfie {
+        height: auto;
+        width: 60%;
+        border-radius: 50%;
+        margin-right: 0;
+    }
+
+    .project .image {
+        height: 300px;
+    }
+}
+
+@media (max-width: 700px) {
+    header ul li button {
+        font-size: 1rem;
+    }
+
+    header ul li {
+        padding: 2px 5px;
+    }
+
+    .container {
+        margin: 0 20px;
+    }
+
+    .selfie {
+        margin-top: 0;
+    }
+
+    .project .image {
+        height: 200px;
+    }
+}
