@@ -12,7 +12,7 @@ export const Works = () => {
                 <img src={timerAppImg} />
               </div>
               <a
-                href="#"
+                href="https://timer-app-azure.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
