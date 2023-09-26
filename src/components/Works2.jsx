@@ -24,7 +24,7 @@ export const Works2 = () => {
                 rel="noopener noreferrer"
               >
                 <div className="sentence">
-                  <h3 className="project-title">BlackJack App</h3>
+                  <h3>BlackJack App</h3>
                   <p>
                     Deck of Cards API というAPIをフェッチして、Reactでブラックジャックのアプリを作りました。おおまかな実装は7時間ほどでおわりましたが、Aを1とも11とも数えることができるというシステムに4時間、相手が17を超えるまでカードを引き続けるというシステムに9時間ほどつまずき、計20時間ぐらいで完成しました。
                   </p>
