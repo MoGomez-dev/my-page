@@ -14,6 +14,7 @@ img:hover {
 .container {
     margin: 0 100px;
     padding: 0 15px;
+    animation: fadein 2s forwards;
 }
 
 .section-title{
@@ -282,4 +283,9 @@ a {
     .project .image {
         height: 200px;
     }
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
 }
