@@ -9,7 +9,7 @@ export const Works = () => {
           <h2 className="section-title">Work</h2>
             <div className="project">
               <div className="image">
-                <img src={timerAppImg} />
+                <img src={timerAppImg} alt='' />
               </div>
               <a
                 href="https://timer-app-azure.vercel.app"
