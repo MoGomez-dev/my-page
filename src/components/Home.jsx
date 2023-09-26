@@ -7,7 +7,7 @@ export const Home = () => {
       <section id='home'>
         <div className="container">
           <div className="home-wrapper">
-            <img className="selfie" src={selfie} />
+            <img className="selfie" src={selfie} alt='' />
             <div className="profile">
               <h2 className="section-title">About</h2>
               <h5>MOTONARI</h5>
