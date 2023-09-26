@@ -11,10 +11,10 @@ export const Works2 = () => {
           <h2 className="section-title">Work</h2>
             <div className="project">
               <div className="image-work2">
-                <img src={blackjackAppImg2} />
+                <img src={blackjackAppImg2} alt='' />
                 <div className="split-image">
-                  <img src={blackjackAppImg1} />
-                  <img src={blackjackAppImg3} />
+                  <img src={blackjackAppImg1} alt='' />
+                  <img src={blackjackAppImg3} alt='' />
               </div>
             </div>
               
