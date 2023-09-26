@@ -17,7 +17,7 @@ export const Works = () => {
                 rel="noopener noreferrer"
               >
                 <div className="sentence">
-                  <h3 className="project-title">Timer App</h3>
+                  <h3>Timer App</h3>
                   <p>
                     指定した時間を数えてくれるタイマーアプリをバニラjavascriptで作りました。５時間ぐらいで完成しました。
                   </p>
