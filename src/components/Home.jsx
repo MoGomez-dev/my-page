@@ -16,9 +16,7 @@ export const Home = () => {
                 フリーターとしてアルバイトをしながらフロントエンドエンジニアになるために独学で勉強中
               </p>
               <h5>使う技術</h5>
-              <p> HTML,CSS,JavaScript,React,Redux</p>
-              <h5>勉強中</h5>
-              <p> TypeScript</p>
+              <p> HTML,CSS,JavaScript,React,Redux,TypeScript</p>
               <h5>勉強予定</h5>
               <p> Next.js</p>
             </div>
